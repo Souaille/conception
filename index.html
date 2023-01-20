@@ -1,0 +1,398 @@
+
+<!-- saved from url=(0091)file:///home/user/Nextcloud/T%C3%A9l%C3%A9travail/Manuscrit%20Th%C3%A8se/website/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body><h1 id="main-title">Page d'accompagnement de la th&egrave;se de doctorat intitul&eacute;e &laquo;Conception Interactive en Design Sonore&raquo;, Ava Souaille</h1>
+<p>
+  Sur cette page permet d'&eacute;couter les sons mentionn&eacute;s dans le manuscrit de th&egrave;se.
+</p>
+
+
+<h2 id="ch2">Chapitre 2: Optimisation de sons de v&eacute;hicule silencieux &agrave; l'aide d'un Algorithme G&eacute;n&eacute;tique Interactif</h2>
+<h3 id="sec22">2.2 Exp&eacute;rience 1 : Optimisation bi-objectifs de sons de v&eacute;hicule silencieux</h3>
+<h4 id="sec224">2.2.2 Mat&eacute;riel et m&eacute;thodes</h4>
+<h5 id="exp1stim">Stimuli</h5>
+<p>Sons pr&eacute;sent&eacute;s sur la figure 2.2:</p>
+<!-- <figure>
+<img src="./index_files/SpecParts.png" title="Spectrograms of the four synth components" alt="synth_components"><figcaption aria-hidden="true">synth_components</figcaption>
+</figure> -->
+<table>
+<colgroup>
+<col style="width: 49%">
+<col style="width: 49%">
+</colgroup>
+<tbody>
+  <tr class="even">
+  <td align= "center">Module M<sub>1</sub> (Son de moteur, avec f<sub>1</sub> = 200Hz)</td>
+  <td align= "center"><audio controls="" src="audio/onlyMotor.wav"></audio></td>
+  </tr>
+<tr class="odd">
+  <td align= "center">Module M<sub>2</sub> (Son musical, avec f<sub>2</sub> = 300Hz)</td>
+  <td align= "center"><audio controls="" src="audio/onlyChord.wav"></audio></td>
+</tr>
+<tr class="even">
+  <td align= "center">Module M<sub>3</sub> (Bruit 1, avec f<sub>3</sub> = 200Hz)</td>
+  <td align= "center"><audio controls="" src="audio/onlyNoise1.wav"></audio></td>
+</tr>
+<tr class="odd">
+  <td align= "center">Module M<sub>4</sub> (Bruit 2, avec f<sub>4</sub> = 600Hz)</td>
+  <td align= "center"><audio controls="" src="audio/onlyNoise2.wav"></audio></td>
+</tr>
+</tbody>
+</table>
+
+<p>Son pr&eacute;sent&eacute; sur la figure 2.4:</p>
+<table>
+<colgroup>
+<col style="width: 49%">
+<col style="width: 49%">
+</colgroup>
+<tbody>
+  <tr class="even">
+    <td align= "center">Exemple du son de VS (3,4,3,4,2,4) avec le fond sonore</td>
+    <td align= "center"><audio controls="" src="audio/example1Full.wav"></audio></td>
+  </tr>
+  </tr>
+</tbody>
+</table>
+
+
+<h3 id="sec22">2.2 Exp&eacute;rience 2 : Validation des meilleurs sons individuels</h3>
+<h4 id="sec224">2.3.2 Mat&eacute;riel et m&eacute;thodes</h4>
+<h5 id="exp2stim">Stimuli</h5>
+<table>
+<colgroup>
+<col style="width: 7%">
+<col style="width: 44%">
+<col style="width: 47%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th align= "center">Sans fond sonore, ni spatialisation</th>
+<th align= "center">Avec fond sonore et spatialisation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align= "center"><i>design1</i></td>
+<td align= "center"><audio controls="" src="audio/Designed1_(244211).wav"></audio></td>
+<td align= "center"><audio controls="" src="audio/Designed1_(244211)_BS.wav"></audio></td>
+</tr>
+<tr class="even">
+<td align= "center"><i>design2</i></td>
+<td align= "center"><audio controls="" src="audio/Designed2_(131142).wav"></audio></td>
+<td align= "center"><audio controls="" src="audio/Designed2_(131142)_BS.wav"></audio></td>
+</tr>
+<tr class="odd">
+<td><i>rand1</i></td>
+<td align= "center"><audio controls="" src="audio/Random1_(341223).wav"></audio></td>
+<td align= "center"><audio controls="" src="audio/Random1_(341223)_BS.wav"></audio></td>
+</tr>
+<tr class="even">
+<td><i>rand2</i></td>
+<td align= "center"><audio controls="" src="audio/Random2_(132411).wav"></audio></td>
+<td align= "center"><audio controls="" src="audio/Random2_(132411)_BS.wav"></audio></td>
+</tr>
+<tr class="odd">
+<td><i>rand3</i></td>
+<td align= "center"><audio controls="" src="audio/Random3_(413144).wav"></audio></td>
+<td align= "center"><audio controls="" src="audio/Random3_(413144)_BS.wav"></audio></td>
+</tr>
+<tr class="even">
+<td><i>rand4</i></td>
+<td align= "center"><audio controls="" src="audio/Random4_(224332).wav"></audio></td>
+<td align= "center"><audio controls="" src="audio/Random4_(224332)_BS.wav"></audio></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="ch3">Chapitre 3: Recommandations de design &agrave; partir des r&eacute;sultats individuels d'une &eacute;preuve IGA</h2>
+<h3 id="sec33">3.3 M&eacute;hode de recommandation</h3>
+<h4 id="sec332">3.3.2 Mise en oeuvre</h4>
+<h5 id="recoreco">Recommandations</h5>
+<table>
+<colgroup>
+  <col style="width: 7%">
+  <col style="width: 44%">
+  <col style="width: 47%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th align= "center">Sans fond sonore, ni spatialisation</th>
+<th align= "center">Avec fond sonore et spatialisation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><i>reco1</i></td>
+<td align= "center"><audio controls="" src="audio/Recommended1_(322211).wav"></audio></td>
+<td align= "center"><audio controls="" src="audio/Recommended1_(322211)_BS.wav"></audio></td>
+</tr>
+<tr class="even">
+<td><i>reco2</i></td>
+<td align= "center"><audio controls="" src="audio/Recommended2_(144411).wav"></audio></td>
+<td align= "center"><audio controls="" src="audio/Recommended2_(144411)_BS.wav"></audio></td>
+</tr>
+<tr class="odd">
+<td><i>reco3</i></td>
+<td align= "center"><audio controls="" src="audio/Recommended3_(244411).wav"></audio></td>
+<td align= "center"><audio controls="" src="audio/Recommended3_(244411)_BS.wav"></audio></td>
+</tr>
+<tr class="even">
+<td><i>reco4</i></td>
+<td align= "center"><audio controls="" src="audio/Recommended4_(322232).wav"></audio></td>
+<td align= "center"><audio controls="" src="audio/Recommended4_(322232)_BS.wav"></audio></td>
+</tr>
+<tr class="odd">
+<td><i>reco5</i></td>
+<td align= "center"><audio controls="" src="audio/Recommended5_(144432).wav"></audio></td>
+<td align= "center"><audio controls="" src="audio/Recommended5_(144432)_BS.wav"></audio></td>
+</tr>
+<tr class="even">
+<td><i>reco6</i></td>
+<td align= "center"><audio controls="" src="audio/Recommended6_(244432).wav"></audio></td>
+<td align= "center"><audio controls="" src="audio/Recommended6_(244432)_BS.wav"></audio></td>
+</tr>
+<tr class="odd">
+<td><i>reco7</i></td>
+<td align= "center"><audio controls="" src="audio/Recommended7_(124211).wav"></audio></td>
+<td align= "center"><audio controls="" src="audio/Recommended7_(124211)_BS.wav"></audio></td>
+</tr>
+<tr class="even">
+<td><i>reco8</i></td>
+<td align= "center"><audio controls="" src="audio/Recommended8_(434211).wav"></audio></td>
+<td align= "center"><audio controls="" src="audio/Recommended8_(434211)_BS.wav"></audio></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="sec34">3.4 Exp&eacute;rience 3 : Evaluation de la m&eacute;thode de recommandation</h3>
+<h4 id="sec342">3.4.2 Mat&eacute;riels et M&eacute;thodes</h4>
+<h5 id="exp3stim">Stimuli</h5>
+<table>
+  <colgroup>
+    <col style="width: 7%">
+    <col style="width: 44%">
+    <col style="width: 47%">
+  </colgroup>
+  <thead>
+  <tr class="header">
+  <th></th>
+  <th align= "center">Sans fond sonore, ni spatialisation</th>
+  <th align= "center">Avec fond sonore et spatialisation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><i>rand5</i></td>
+<td align= "center"><audio controls="" src="audio/Random5_(314212).wav"></audio></td>
+<td align= "center"><audio controls="" src="audio/Random5_(314212)_BS.wav"></audio></td>
+</tr>
+<tr class="even">
+<td><i>rand6</i></td>
+<td align= "center"><audio controls="" src="audio/Random6_(111413).wav"></audio></td>
+<td align= "center"><audio controls="" src="audio/Random6_(111413)_BS.wav"></audio></td>
+</tr>
+<tr class="odd">
+<td><i>rand7</i></td>
+<td align= "center"><audio controls="" src="audio/Random7_(141244).wav"></audio></td>
+<td align= "center"><audio controls="" src="audio/Random7_(141244)_BS.wav"></audio></td>
+</tr>
+<tr class="even">
+<td><i>rand8</i></td>
+<td align= "center"><audio controls="" src="audio/Random8_(233244).wav"></audio></td>
+<td align= "center"><audio controls="" src="audio/Random8_(233244)_BS.wav"></audio></td>
+</tr>
+</tbody>
+</table>
+</body></html>
+
+
+<h2 id="ch5">Chapitre 5: R&eacute;duction de l'espace de conception (Partie 2: Exp&eacute;riences perceptives)</h2>
+<h3 id="sec52">5.2  Exp&eacute;rience 5: pr&eacute;-exp&eacute;rience pour la r&eacute;duction de l'espace de conception</h3>
+<h4 id="sec552">5.2.2 Mat&eacute;riels et M&eacute;thodes</h4>
+<h5 id="exp5stim">Stimuli</h5>
+<p>Sons pr&eacute;sent&eacute;s sur la figure 5.2 (<b>Attention au niveaux sonores, qui peuvent varier d'un son &agrave; l'autre</b>):</p>
+<table>
+<colgroup>
+  <col>
+  <col>
+  <col>
+</colgroup>
+<!-- <thead>
+<tr class="header">
+<th></th>
+<th align= "center">Sans fond sonore, ni spatialisation</th>
+<th align= "center">Avec fond sonore et spatialisation</th>
+</tr>
+</thead> -->
+<tbody>
+<tr class="odd">
+<td align= "center"><audio controls="" src="audio/000.wasv"></audio></td>
+<td align= "center"><audio controls="" src="audio/001.wav"></audio></td>
+<td align= "center"><audio controls="" src="audio/002.wav"></audio></td>
+</tr>
+<tr class="even">
+  <td align= "center"><audio controls="" src="audio/003.wav"></audio></td>
+  <td align= "center"><audio controls="" src="audio/004.wav"></audio></td>
+  <td align= "center"><audio controls="" src="audio/005.wav"></audio></td>
+</tr>
+<tr class="odd">
+  <td align= "center"><audio controls="" src="audio/006.wav"></audio></td>
+  <td align= "center"><audio controls="" src="audio/007.wav"></audio></td>
+  <td align= "center"><audio controls="" src="audio/008.wav"></audio></td>
+</tr>
+<tr class="even">
+  <td align= "center"><audio controls="" src="audio/009.wav"></audio></td>
+  <td align= "center"><audio controls="" src="audio/010.wav"></audio></td>
+  <td align= "center"><audio controls="" src="audio/011.wav"></audio></td>
+</tr>
+</tbody>
+</table>
+
+<p>Son pr&eacute;sent&eacute; sur la figure 5.3:</p>
+<table>
+<colgroup>
+<col style="width: 49%">
+<col style="width: 49%">
+</colgroup>
+<tbody>
+  <tr class="even">
+    <td align= "center">Extrait de 10s du fond sonore</td>
+    <td align= "center"><audio controls="" src="audio/fond10s.wav"></audio></td>
+  </tr>
+  </tr>
+</tbody>
+</table>
+
+<h5 id="exp5stim">Proc&eacute;dure exp&eacute;rimentale</h5>
+<p>Illustration du concept d'intrusivit&eacute; (<b>Attention au niveaux sonores, en particulier pour le deuxi&egrave;me son</b>):</p>
+<table>
+<colgroup>
+<col style="width: 49%">
+<col style="width: 49%">
+</colgroup>
+<tbody>
+  <tr class="even">
+  <td align= "center">Son peu intrusif</td>
+  <td align= "center"><audio controls="" src="audio/01_example_low_intrusiveness.wav"></audio></td>
+  </tr>
+<tr class="odd">
+  <td align= "center">Son tr&egrave;s intrusif</td>
+  <td align= "center"><audio controls="" src="audio/02_example_high_intrusiveness.wav"></audio></td>
+</tr>
+</tr>
+</tbody>
+</table>
+
+
+<h3 id="sec53">5.3  Exp&eacute;rience 6: validation de la m&eacute;thode de r&eacute;duction d'espace</h3>
+<h4 id="sec332">5.3.3 R&eacute;sultats</h4>
+<h5 id="exp6ana">Analyse des meilleurs sons</h5>
+<p>Sons pr&eacute;sent&eacute;s sur les figures 5.10 et 5.11 (<b>Attention au niveaux sonores, qui peuvent varier d'un son &agrave; l'autre</b>):</p>
+<table>
+<colgroup>
+  <col style="width: 7%">
+  <col style="width: 44%">
+  <col style="width: 47%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th align= "center">Approche EC</th>
+<th align= "center">Approche AS</th>
+</tr>
+</thead>
+<tbody>
+  <tr class="odd">
+  <td align= "center">Sujet 1</td>
+  <td align= "center"><audio controls="" src="audio/IGA0sujet1.wav"></audio></td>
+  <td align= "center"><audio controls="" src="audio/IGA1sujet1.wav"></audio></td>
+  </tr>
+  <tr class="even">
+    <td align= "center">Sujet 2</td>
+    <td align= "center"><audio controls="" src="audio/IGA0sujet2.wav"></audio></td>
+    <td align= "center"><audio controls="" src="audio/IGA1sujet2.wav"></audio></td>
+  </tr>
+  <tr class="odd">
+    <td align= "center">Sujet 3</td>
+    <td align= "center"><audio controls="" src="audio/IGA0sujet3.wav"></audio></td>
+    <td align= "center"><audio controls="" src="audio/IGA1sujet3.wav"></audio></td>
+  </tr>
+  <tr class="even">
+    <td align= "center">Sujet 4</td>
+    <td align= "center"><audio controls="" src="audio/IGA0sujet4.wav"></audio></td>
+    <td align= "center"><audio controls="" src="audio/IGA1sujet4.wav"></audio></td>
+  </tr>
+  <tr class="odd">
+    <td align= "center">Sujet 5</td>
+    <td align= "center"><audio controls="" src="audio/IGA0sujet5.wav"></audio></td>
+    <td align= "center"><audio controls="" src="audio/IGA1sujet5.wav"></audio></td>
+  </tr>
+  <tr class="even">
+    <td align= "center">Sujet 6</td>
+    <td align= "center"><audio controls="" src="audio/IGA0sujet6.wav"></audio></td>
+    <td align= "center"><audio controls="" src="audio/IGA1sujet6.wav"></audio></td>
+  </tr>
+  <tr class="odd">
+  <td align= "center">Sujet 7</td>
+  <td align= "center"><audio controls="" src="audio/IGA0sujet7.wav"></audio></td>
+  <td align= "center"><audio controls="" src="audio/IGA1sujet7.wav"></audio></td>
+  </tr>
+  <tr class="even">
+    <td align= "center">Sujet 8</td>
+    <td align= "center"><audio controls="" src="audio/IGA0sujet8.wav"></audio></td>
+    <td align= "center"><audio controls="" src="audio/IGA1sujet8.wav"></audio></td>
+  </tr>
+  <tr class="odd">
+    <td align= "center">Sujet 9</td>
+    <td align= "center"><audio controls="" src="audio/IGA0sujet9.wav"></audio></td>
+    <td align= "center"><audio controls="" src="audio/IGA1sujet9.wav"></audio></td>
+  </tr>
+  <tr class="even">
+    <td align= "center">Sujet 10</td>
+    <td align= "center"><audio controls="" src="audio/IGA0sujet10.wav"></audio></td>
+    <td align= "center"><audio controls="" src="audio/IGA1sujet10.wav"></audio></td>
+  </tr>
+  <tr class="odd">
+    <td align= "center">Sujet 11</td>
+    <td align= "center"><audio controls="" src="audio/IGA0sujet11.wav"></audio></td>
+    <td align= "center"><audio controls="" src="audio/IGA1sujet11.wav"></audio></td>
+  </tr>
+  <tr class="even">
+    <td align= "center">Sujet 12</td>
+    <td align= "center"><audio controls="" src="audio/IGA0sujet12.wav"></audio></td>
+    <td align= "center"><audio controls="" src="audio/IGA1sujet12.wav"></audio></td>
+  </tr>
+  <tr class="odd">
+  <td align= "center">Sujet 13</td>
+  <td align= "center"><audio controls="" src="audio/IGA0sujet13.wav"></audio></td>
+  <td align= "center"><audio controls="" src="audio/IGA1sujet13.wav"></audio></td>
+  </tr>
+  <tr class="even">
+    <td align= "center">Sujet 14</td>
+    <td align= "center"><audio controls="" src="audio/IGA0sujet14.wav"></audio></td>
+    <td align= "center"><audio controls="" src="audio/IGA1sujet14.wav"></audio></td>
+  </tr>
+  <tr class="odd">
+    <td align= "center">Sujet 15</td>
+    <td align= "center"><audio controls="" src="audio/IGA0sujet15.wav"></audio></td>
+    <td align= "center"><audio controls="" src="audio/IGA1sujet15.wav"></audio></td>
+  </tr>
+  <tr class="even">
+    <td align= "center">Sujet 16</td>
+    <td align= "center"><audio controls="" src="audio/IGA0sujet16.wav"></audio></td>
+    <td align= "center"><audio controls="" src="audio/IGA1sujet16.wav"></audio></td>
+  </tr>
+  <tr class="odd">
+    <td align= "center">Sujet 17</td>
+    <td align= "center"><audio controls="" src="audio/IGA0sujet17.wav"></audio></td>
+    <td align= "center"><audio controls="" src="audio/IGA1sujet17.wav"></audio></td>
+  </tr>
+  <tr class="even">
+    <td align= "center">Sujet 18</td>
+    <td align= "center"><audio controls="" src="audio/IGA0sujet18.wav"></audio></td>
+    <td align= "center"><audio controls="" src="audio/IGA1sujet18.wav"></audio></td>
+  </tr>
+</tbody>
+</table>
